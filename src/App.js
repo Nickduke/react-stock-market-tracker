@@ -1,10 +1,12 @@
 import './App.css';
+import Form from './components/Form';
 import StockRow from './components/StockRow.js';
 
 function App() {
   return (
     <div className='App'>
       <div className='container'>
+        <Form />
         <table className='table'>
           <thead>
             <tr>
